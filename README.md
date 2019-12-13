@@ -3,11 +3,16 @@ Docker in 600 lines of bash using [https://proot-me.github.io/](proot).
 Fully compatible with [https://termux.com/](termux), runs on android up to
 version 10 with no problems.
 
+This is a stateless script, it creates no files or anything to keep track of the instances you create. Doesn't run a daemon. It's plain bash, will `ls` into a directory to see what instances you have. Simple as that.
+
 ### Supported images
 Currently only alpine. Will add arch, fedora, ubuntu, debian and ... later.
 
 ### Road Map
-Directly pull and run docker images.
+- Directly pull and run docker images.
+- Support `chroot`.
+- Test more on PC / x86.
+- Make proot accept custom port mapping.
 
 ### Prerequisites
 - [https://proot-me.github.io/](proot)
