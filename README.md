@@ -1,8 +1,22 @@
-# bag
-
+### bag
 Docker in 600 lines of bash using [https://proot-me.github.io/](proot).
 Fully compatible with [https://termux.com/](termux), runs on android up to
 version 10 with no problems.
+
+### Supported images
+Currently only alpine. Will add arch, fedora, ubuntu, debian and ... later.
+
+### Road Map
+Directly pull and run docker images.
+
+### Prerequisites
+- [https://proot-me.github.io/](proot)
+- bash 4.0+
+- tar (d'oh! does this even count?)
+- grep
+- sha256sum (or disable image verification)
+- curl
+
 
 ### Examples
 
