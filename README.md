@@ -1,3 +1,6 @@
+# MOVED TO https://gitlab.com/hkoosha/bag
+
+
 ### bag
 Docker in 600 lines of bash using [https://proot-me.github.io/](proot).
 Fully compatible with [https://termux.com/](termux), runs on android up to
